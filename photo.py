@@ -1,7 +1,7 @@
 photo_mas=[
     {
         'data_aos':0,
-        'img':"img_4.jpg"
+        'img':"img_5.jpg"
     },
     {
         'data_aos':100,

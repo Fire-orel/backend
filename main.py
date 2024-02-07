@@ -26,8 +26,11 @@ class CustomHandler(SimpleHTTPRequestHandler):
         body=self.env.get_template('index.html').render(photo_mas=photo_mas)
         self.wfile.write(body.encode('utf-8'))
 
+
+
+
 def run(server_class=HTTPServer,handler_class=BaseHTTPRequestHandler):
-    
+
     server_address = ('', 8000)
     httpd = server_class(server_address, handler_class)
     print("[+] Server starting")
